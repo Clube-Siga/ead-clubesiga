@@ -7,9 +7,9 @@ $CFG = new stdClass();
 $CFG->dbtype    = 'mysqli';
 $CFG->dblibrary = 'native';
 $CFG->dbhost    = 'localhost';
-$CFG->dbname    = 'clubesig_eadmdl';
-$CFG->dbuser    = 'clubesig_eadmdl';
-$CFG->dbpass    = '66@9fgs!pS';
+$CFG->dbname    = 'ead_clubesiga';
+$CFG->dbuser    = 'webert';
+$CFG->dbpass    = 'W4m@x2r7';
 $CFG->prefix    = 'ead_';
 $CFG->dboptions = array (
   'dbpersist' => 0,
@@ -18,8 +18,8 @@ $CFG->dboptions = array (
   'dbcollation' => 'utf8mb4_general_ci',
 );
 
-$CFG->wwwroot   = 'https://ead.clubesiga.com.br';
-$CFG->dataroot  = '/home1/clubesiga/moodledata';
+$CFG->wwwroot   = 'https://ead.clubesiga.dev';
+$CFG->dataroot  = '/var/www/ead.clubesiga.com.br/moodledata';
 $CFG->admin     = 'admin';
 
 $CFG->directorypermissions = 0777;
