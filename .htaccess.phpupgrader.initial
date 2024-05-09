@@ -1,0 +1,7 @@
+
+RewriteEngine on
+
+RewriteOptions inherit
+RewriteCond %{HTTP_HOST} ^ead\.clubesiga\.com\.br$
+RewriteRule ^/?$ "https\:\/\/clubesiga\.com\.br\/" [R=301,L]
+
